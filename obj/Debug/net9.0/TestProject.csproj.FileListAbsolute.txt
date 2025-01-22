@@ -12,3 +12,4 @@ C:\Users\Bandi\Desktop\C#Learning\CsharpProjects\TestProject\obj\Debug\net9.0\re
 C:\Users\Bandi\Desktop\C#Learning\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
 C:\Users\Bandi\Desktop\C#Learning\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
 C:\Users\Bandi\Desktop\C#Learning\CsharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll
+C:\Users\Bandi\Desktop\C#Learning\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.sourcelink.json
