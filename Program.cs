@@ -62,3 +62,7 @@ if (daysUntilExpiration <= 10  && daysUntilExpiration > 0){
 else if (daysUntilExpiration == 0) {
     Console.WriteLine("Your subscription has expired");
 }
+
+else {
+    //do nothing
+}
