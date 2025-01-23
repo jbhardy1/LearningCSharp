@@ -63,6 +63,20 @@ else if (daysUntilExpiration == 0) {
     Console.WriteLine("Your subscription has expired");
 }
 
-else {
-    //do nothing
-}
+
+string[] fradulentOrderIds = new string[3]; // new array with 3 elements
+
+fradulentOrderIds[0] = "A123"; //assiging values at the specified index
+fradulentOrderIds[1] = "B456";
+fradulentOrderIds[2] = "C789";
+// fradulentOrderIds[3] = "D000"; example of an out of bounds since index begins at 0
+
+Console.WriteLine($"First: {fradulentOrderIds[0]}");
+Console.WriteLine($"Second: {fradulentOrderIds[1]}");
+Console.WriteLine($"Third: {fradulentOrderIds[2]}");
+
+fradulentOrderIds[0] = "F000"; //you can reassign values at an index - as longs as it's the same type
+
+Console.WriteLine($"Reassign First: {fradulentOrderIds[0]}");
+
+Console.WriteLine($"There are {fradulentOrderIds.Length}"); // utilizes .Length to get the size or length of the array
