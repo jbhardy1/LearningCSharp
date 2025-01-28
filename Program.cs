@@ -99,10 +99,33 @@
 
 // Console.WriteLine($"We have {sum} items in inventory");
 
-string[] fraudId = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+// string[] fraudId = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
 
-foreach (string item in fraudId){
-    if (item.StartsWith("B")){
-        Console.WriteLine($"{item}");
-    }
+// foreach (string item in fraudId){
+//     if (item.StartsWith("B")){
+//         Console.WriteLine($"{item}");
+//     }
+// }
+
+// initialize variables - graded assignments 
+
+int currentAssignments = 5;
+
+int[] sophiaScores = new int[] {90, 86, 87, 98, 100};
+int[] andrewScores = new int[] {92, 89, 81, 96, 90};
+int[] emmaScores = new int[] {90, 85, 87, 98, 68};
+int[] loganScores = new int[] {90, 95, 87, 88, 96};
+
+int sophiaSum = 0;
+
+decimal sophiaScore;
+
+foreach (int score in sophiaScores){
+    sophiaSum += score;
 }
+
+sophiaScore = (decimal)sophiaSum / currentAssignments;
+
+Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
+
